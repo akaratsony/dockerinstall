@@ -7,7 +7,7 @@ pipeline {
                     // Installation of docker for CentOS
                     sh 'curl -fsSL https://get.docker.com -o get-docker.sh'
                     sh 'chmod +x get-docker.sh'
-                    sh 'sudo ./get-docker.sh --dry-run'
+                    sh 'sudo ./get-docker.sh '
                 }
             }
         }
