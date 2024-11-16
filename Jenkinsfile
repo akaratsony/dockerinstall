@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     // Installation of docker for CentOS
-                    sh 'c curl -fsSL https://get.docker.com -o get-docker.sh'
+                    sh 'curl -fsSL https://get.docker.com -o get-docker.sh'
                     sh ' sudo sh ./get-docker.sh --dry-run'
                 }
             }
