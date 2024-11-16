@@ -19,8 +19,8 @@ pipeline {
                     // Version check
                     sh 'sudo docker version'
                     //Run a single docker container
-                    sh 'sudo docker pull docker/whalesay'
-                    sh 'sudo docker run docker/whalesay cowsay boo'
+                    sh 'sudo docker pull hello-world'
+                    sh 'sudo docker run hello-world'
                     // Szóellenőrzés
               
                 }
